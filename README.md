@@ -6,10 +6,10 @@
   * Maven
   * Git
   * IDE (Eclipse lub IntelliJ)
-3. Github - założenie konta i dołączenie do projektu
-  * https://github.com/grawix/SeleniumStart
-4. Trello - założenie konta i dołączenie do projektu
-  * https://trello.com/b/w2PCea0q/tasks
+3. Github - założenie konta i dołączenie do projektu<br>
+https://github.com/grawix/SeleniumStart
+4. Trello - założenie konta i dołączenie do projektu<br>
+https://trello.com/b/w2PCea0q/tasks
 
 ## Spotkania
 1. Miejsce:<br>
