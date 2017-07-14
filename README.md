@@ -17,4 +17,4 @@ Budynek TIMES<br>
 ul. Kazimierza Wielkiego 1<br>
 50-077 Wrocław<br>
 2. Najbliższe spotkanie (pierwsze):<br>
-17.07.2017 lub 19.07.2017
+19.07.2017 godzina 16:00 (czas trwania ok 90min)
