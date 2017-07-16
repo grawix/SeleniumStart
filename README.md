@@ -18,3 +18,5 @@ ul. Kazimierza Wielkiego 1<br>
 50-077 Wrocław<br>
 2. Najbliższe spotkanie (pierwsze):<br>
 19.07.2017 godzina 16:00 (czas trwania ok 90min)
+3. Adres strony<br>
+http://automationpractice.com/index.php
