@@ -27,7 +27,10 @@ public class Conflicts {
         System.out.println("Nullam sed lectus sit amet augue posuere finibus");
         System.out.println("Interdum et malesuada fames ac ante ipsum primis in faucibus");
         System.out.println("Ut ultrices tristique imperdiet");
-        System.out.println("Nullam in orci at nibh vestibulum tempus");
     }
 
-}
+    public static void conflict3() {
+        System.out.println();
+    }
+
+    }
