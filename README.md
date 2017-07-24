@@ -16,7 +16,7 @@ https://trello.com/b/w2PCea0q/tasks
 Budynek TIMES<br>
 ul. Kazimierza Wielkiego 1<br>
 50-077 Wrocław<br>
-2. Najbliższe spotkanie (pierwsze):<br>
-19.07.2017 godzina 16:00 (czas trwania ok 90min)
+2. Najbliższe spotkanie (drugie):<br>
+26.07.2017 godzina 16:00 (czas trwania ok 90min)
 3. Adres strony<br>
 http://automationpractice.com/index.php
