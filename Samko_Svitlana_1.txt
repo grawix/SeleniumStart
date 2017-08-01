@@ -1,0 +1,23 @@
+﻿1. selectorSubject - css: select#id_contact - xpath: //select[@id="id_contact"]
+2. inputEmail - css: input#email - xpath: //input[@id='email']
+3. inputOrder - css: input#id_order - xpath: //input[@id='id_order']
+4. inputFile - css: input#fileUpload - xpath: //input[@id='fileUpload']
+5. buttonSend - css: button#submitMessage - xpath: //button[@id='submitMessage']
+6. messageTextbox - css: textarea#message - xpath: //textarea[@id='message']
+
+7. inputEmail - css: input#email - xpath: //input[@id='email']
+8. inputPassword - css: input#passwd - xpath: //input[@id='passwd']
+9. buttonSignIn - css: button#SubmitLogin - xpath: //button[@id='SubmitLogin']
+
+10. inputEmailAddress - css: input#email_create - xpath: //input[@id='email_create']
+11. buttonCreateAnAccount - css: button#SubmitCreate - xpath: //button[@id='SubmitCreate']
+
+12. linkPopular - css: a.homefeatured - xpath: //a[@class="homefeatured"]
+13. linkBestsellers - css: a.blockbestsellers - xpath: //a[@class="blockbestsellers"]
+14. linkFadedShortSleeve - css: ul#homefeatured a[href="http://automationpractice.com/index.php?id_product=1&controller=product"] > img - xpath: //ul[@id='homefeatured']//a[@href='http://automationpractice.com/index.php?id_product=1&controller=product']/img
+
+15. inputSearch - css: input#search_query_top - xpath: //input[@id='search_query_top']
+16. buttonSearch- css: button.btn.btn-default.button-search - xpath: //button[@class="btn btn-default button-search"]
+17. buttonCheckOut- css: a#button_order_cart - xpath: //a[@id="button_order_cart"]
+
+18. buttonShopNow- css: li.homeslider-container.bx-clone:first-child > .homeslider-description button.btn.btn-default - xpath: //li[@class='homeslider-container bx-clone'][1] / div[@class='homeslider-description']//button[@class='btn btn-default']
