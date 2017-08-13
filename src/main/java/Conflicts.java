@@ -1,5 +1,3 @@
-package main;
-
 public class Conflicts {
     public static void conflict1() {
         System.out.println("Line 1");

@@ -45,7 +45,7 @@
                 </execution>
             </executions>
             <configuration>
-                <mainClass>main.Hello</mainClass>
+                <mainClass>Hello</mainClass>
             </configuration>
         </plugin>
     </plugins>
