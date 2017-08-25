@@ -17,6 +17,6 @@ Budynek TIMES<br>
 ul. Kazimierza Wielkiego 1<br>
 50-077 Wrocław<br>
 2. Najbliższe spotkanie (czwarte):<br>
-30.08.2017 godzina 16:00 (czas trwania ok 90min)
+6.09.2017 godzina 16:00 (czas trwania ok 90min)
 3. Adres strony<br>
 http://automationpractice.com/index.php
