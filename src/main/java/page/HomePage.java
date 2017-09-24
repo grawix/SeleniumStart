@@ -19,6 +19,7 @@ public class HomePage extends BasePage{
     }
 
     public HomePage enterTextToSearch(String productName){
+        logger.debug("Searching for " + productName);
         WebElement searchBoxElement = driver.findElement(searchBox);
         searchBoxElement.clear();
         searchBoxElement.sendKeys(productName);
@@ -26,7 +27,8 @@ public class HomePage extends BasePage{
     }
 
     public SearchResultPage clickOnSearchButton(){
-        driver.findElement(searchButton).click();
+        logger.debug("Clicking search button");
+        clickOnElement(searchButton);
         return new SearchResultPage();
     }
 

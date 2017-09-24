@@ -1,18 +1,27 @@
 import org.junit.Test;
-import page.HomePage;
-import utils.Setup;
+import page.SearchResultPage;
+import test.BaseTest;
 
-import static utils.Setup.loadHomePage;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
-public class FirstTest {
+public class FirstTest extends BaseTest {
 
     @Test
     public void searchTest() {
-        HomePage homePage = loadHomePage();
+        // Arrange
+        String searchedProduct = "Faded Short Sleeve T-shirts";
 
-        homePage.enterTextToSearch("aa")
-                .clickOnSearchButton()
-                .isCorrectPage();
-        Setup.quit();
+        // Act
+        SearchResultPage searchResultPage = homePage.enterTextToSearch(searchedProduct)
+                .clickOnSearchButton();
+        boolean openedPage = searchResultPage.isCorrectPage();
+        String displayedName = searchResultPage.getFirstElementName();
+
+        // Assert
+        assertTrue("Wrong page is opened", openedPage);
+        assertEquals("Displayed product name is different than expected",
+                searchedProduct, displayedName);
+
     }
 }
