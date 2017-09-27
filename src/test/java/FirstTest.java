@@ -24,4 +24,22 @@ public class FirstTest extends BaseTest {
                 searchedProduct, displayedName);
 
     }
+
+    @Test
+    public void secondTest() {
+        // Arrange
+        String searchedProduct = "Faded Short Sleeve T-shirts";
+
+        // Act
+        SearchResultPage searchResultPage = homePage.enterTextToSearch(searchedProduct)
+                .clickOnSearchButton();
+        boolean openedPage = searchResultPage.isCorrectPage();
+        String displayedName = searchResultPage.getFirstElementName();
+
+        // Assert
+        assertTrue("Wrong page is opened", openedPage);
+        assertEquals("Displayed product name is different than expected",
+                searchedProduct, displayedName);
+
+    }
 }

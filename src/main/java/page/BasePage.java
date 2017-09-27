@@ -37,7 +37,7 @@ public class BasePage {
             element = driver.findElement(locator);
         }
         catch(Exception e){
-            logger.debug("Element not found");
+            logger.warn("Element not found." + e.getMessage());
         }
         return element;
     }
